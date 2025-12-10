@@ -1,5 +1,5 @@
 name: Run Shell Commands #name for the github actions file 
-on: [push] #when do we want to run this workflow filr here we will run when there is a push command to repo
+on: [push]
 
   jobs: #inside jobs keyword we need to efine actions actually command we want to execute
     run-shell-command: #action name, this is the command used to run shell commands
