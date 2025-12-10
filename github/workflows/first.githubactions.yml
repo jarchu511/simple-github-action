@@ -6,4 +6,4 @@ on: [push] #when do we want to run this workflow filr here we will run when ther
       runs-on: ubuntu-latest #where we run server runs on commande used to say on which server we run the yaml file unbuntu latest is provided default by git
       steps: #if we want to print some text we need to use echo command
         - name: Echo a String #name of the command
-          run: echo "this is first git hub actions file, it's a simple file" #changes
+          run: echo "this is first git hub actions file, it's a simple file" #changes just made
