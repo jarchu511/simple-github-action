@@ -1,11 +1,11 @@
 name: Run Shell Commands #name for the github actions file 
 on: [push]
 
-  jobs: #inside jobs keyword we need to efine actions actually command we want to execute
-    run-shell-command: #action name, this is the command used to run shell commands
-      runs-on: ubuntu-latest #where we run server runs on commande used to say on which server we run the yaml file unbuntu latest is provided default by git
-      steps: #if we want to print some text we need to use echo command
-        - name: Echo a String #name of the command
-          run: echo "this is first git hub actions file, it's a simple file" #changes just made
-          run: echo "see if action works correctly"
+jobs: #inside jobs keyword we need to efine actions actually command we want to execute
+  run-shell-command: #action name, this is the command used to run shell commands
+    runs-on: ubuntu-latest #where we run server runs on commande used to say on which server we run the yaml file unbuntu latest is provided default by git
+    steps: #if we want to print some text we need to use echo command
+      - name: Echo a String #name of the command
+        run: echo "this is first git hub actions file, it's a simple file" #changes just made
+        run: echo "see if action works correctly"
     
