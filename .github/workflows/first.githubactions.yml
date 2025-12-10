@@ -7,5 +7,5 @@ jobs: #inside jobs keyword we need to efine actions actually command we want to 
     steps: #if we want to print some text we need to use echo command
       - name: Echo a String #name of the command
         run: echo "this is first git hub actions file, it's a simple file" #changes just made
-        run: echo "see if action works correctly"
+        
     
