@@ -7,4 +7,5 @@ on: [push] #when do we want to run this workflow filr here we will run when ther
       steps: #if we want to print some text we need to use echo command
         - name: Echo a String #name of the command
           run: echo "this is first git hub actions file, it's a simple file" #changes just made
-          run: echo "see if action works"
+          run: echo "see if action works correctly"
+    
